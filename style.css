@@ -251,7 +251,7 @@ h3{
 .cta{
     margin: 100px auto;
     width: 80%;
-    background: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url(images/banner2.jpg);
+    background: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url(banner2.jpg);
     background-position: center;
     background-size: cover;
     padding: 100px 0;
@@ -289,7 +289,7 @@ h3{
 .sub-header{
     height: 50vh;
     width: 100%;
-    background:linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url(images/background3.jpg);
+    background:linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url(background3.jpg);
     background-position: center;
     background-size: cover;
     text-align: center;
@@ -332,7 +332,7 @@ h3{
 /* ----------------- css for course page --------------  */
 
 .course-bg{
-    background:linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url(images/background.jpg);
+    background:linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url(background.jpg);
     background-position: center;
     background-size: cover;
 
