@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SMES - Sanghavi College of Engineering, Nashik</title>
+    <link rel="shortcut icon" href="images/logo.jpg">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet">
+    <script src="https://kit.fontawesome.com/7deff1fc9c.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="logo.jpg"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="HideMenu()"></i>
+
+
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT US</a></li>
+                </ul>
+
+
+            </div>
+            <i class="fa fa-bars" onclick="ShowMenu()"></i>
+        </nav>
+        <h1>About Us</h1>
+    </section>
+
+<!-- -------- About us content --------------------- -->
+
+<section class="about-us">
+    <div class="row">
+        <div class="about-col">
+            <h1>Core Value</h1>
+            <p>Shree Mahavir Education Society was established in 1996 as one of the leader in Technical Education in the rural area. The trust was started with a clear objective of providing high class education system in rural area and to give employment fillip to the women of rural area through need based education.
+
+                Mr. Harish Sanghavi started its rapid growth and began to play key role to meet diversified educational needs of rural people in Maharastra particularly in Dindori District of Nashik. Our organization is non-profit, educational charitable trust with the aim of imparting quality education to rural area by self-financing. Our organization has superior human resources, superb infrastructure, conductive working environment as well as inherent strength.
+                
+                Mr. Harish Sanghavi started multiple Education Institutes in rural part of Nashik district especially Dindori. He started the Mahavir Polytechnic formerly known as Institute of Polytechnic, Nashik in Varvandi Village in the year 1999. The College is recognized by All India Council for Technical Education (AICTE) & Directorate of Technical Education (DTE) & Affiliated to Maharashtra State Board of Technical Education (MSBTE).
+                </p>
+                <a href="" class="btn red-btn">EXPLORE NOW</a>
+        </div>
+        <div class="about-col">
+            <img src="about2.jpg" alt="">
+        </div>
+    </div>
+</section>
+    <!-- ------- footer ------- -->
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Shree Mahavir Education Society was established in 1996 as one of the leader in Technical Education in the rural area. The trust was started with a clear objective of providing high class education system in rural area and to give employment fillip to the women of rural area through need based education.</p>
+        <div class="icons">
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-linkedin"></i>
+            <i class="fas fa-envelope-open"></i>        
+        </div><hr>
+        <p><i class="fas fa-copyright"></i> 2021 Copyrights: Sushant's Tech.<br>All Rights Reserve.</p>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- -----------------------Javascript for toggle bar/ Menu-------------------------------------- -->
+    <script>
+        var navLinks = document.getElementById('navLinks');
+
+
+        function ShowMenu() {
+            navLinks.style.right = "0";
+        }
+
+        function HideMenu() {
+            navLinks.style.right = "-200px";
+        }
+
+
+    </script>
+</body>
+
+</html>
